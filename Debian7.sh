@@ -126,16 +126,16 @@ service webmin restart
 
 # download script
 cd /usr/bin
-wget -O menu "https://github.com/midnight22222/JEJE/blob/master/menu.sh?raw=true"
-wget -O usernew "https://github.com/midnight22222/JEJE/blob/master/usernew.sh?raw=true"
-wget -O trial "https://github.com/midnight22222/JEJE/blob/master/trial.sh?raw=true"
-wget -O hapus "https://github.com/midnight22222/JEJE/blob/master/hapus.sh?raw=true"
-wget -O cek "https://github.com/midnight22222/JEJE/blob/master/user-login.sh?raw=true"
-wget -O member "https://github.com/midnight22222/JEJE/blob/master/user-list.sh?raw=true"
-wget -O resvis "https://github.com/midnight22222/JEJE/blob/master/resvis.sh?raw=true"
-wget -O speedtest "https://github.com/midnight22222/JEJE/blob/master/speedtest_cli.py?raw=true"
-wget -O info "https://github.com/midnight22222/JEJE/blob/master/info.sh?raw=true"
-wget -O about "https://github.com/midnight22222/JEJE/blob/master/about.sh?raw=true"
+wget -O menu "https://github.com/midnight22222/JEJE/blob/master/menu.sh"
+wget -O usernew "https://github.com/midnight22222/JEJE/blob/master/usernew.sh"
+wget -O trial "https://github.com/midnight22222/JEJE/blob/master/trial.sh"
+wget -O hapus "https://github.com/midnight22222/JEJE/blob/master/hapus.sh"
+wget -O cek "https://github.com/midnight22222/JEJE/blob/master/user-login.sh"
+wget -O member "https://github.com/midnight22222/JEJE/blob/master/user-list.sh"
+wget -O resvis "https://github.com/midnight22222/JEJE/blob/master/resvis.sh"
+wget -O speedtest "https://github.com/midnight22222/JEJE/blob/master/speedtest_cli.py"
+wget -O info "https://github.com/midnight22222/JEJE/blob/master/info.sh"
+wget -O about "https://github.com/midnight22222/JEJE/blob/master/about.sh"
 
 echo "0 0 * * * root /sbin/reboot" > /etc/cron.d/reboot
 
@@ -197,8 +197,8 @@ echo "Webmin   : http://$MYIP:10000/"  | tee -a log-install.txt
 echo "Timezone : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
 echo "IPv6     : [off]"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "Original Script by Fornesia, Rzengineer & Fawzya"  | tee -a log-install.txt
-echo "Modified by Bustami Arifin"  | tee -a log-install.txt
+echo "Original Script by JeVIPx, JeVIPz & JeVIPc"  | tee -a log-install.txt
+echo "Modified by ADMIN Je"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "Log Instalasi --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
